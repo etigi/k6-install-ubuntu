@@ -1,6 +1,6 @@
 name: k6-install-ubuntu
 description: Installs [K6](k6.io) onto GitHub Ubuntu runners.
-steps:
+runs:
   using: 'composite'
   steps:
     - run: |
